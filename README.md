@@ -5,4 +5,4 @@ Dropdown  that i worked
 here's the link for the project https://meyun-mud.github.io/dropdown.html/ 
 
 wait some seconds, are u gonna be redirect for the oficial page in the replit.com/Meyun
-<meta http-equiv="refresh" content="3; https://Dropdown.meyunmud.repl.co"> XD
+<meta http-equiv="refresh" content="3; https://Dropdown.meyunmud.repl.co">
