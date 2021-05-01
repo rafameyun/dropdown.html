@@ -1,4 +1,5 @@
 # Dropdown feito por mim, aguarde
+o intuito deste dropdown é aparecer ao lado inferior da publicação quando estiver perto do topo do site
 Dropdown  that i worked
 <h2>Please wait 3 secs</h2>
 
