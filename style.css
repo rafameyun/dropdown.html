@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 70vh;
+    background: blue;
+}
+.wrapper {
+    position: relative;
+    width: 50px;
+}
+img#foto1 {
+    padding:0.6em;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.content {
+    padding:10px;
+    border-radius: 2vh;
+    position: absolute;
+    width: 200px;
+    color:white;
+    background-color:#070707;
+    bottom: 100%;
+    display: none;
+}
+.foto-perfil:hover + .content {
+    display: block;
+    box-align: left;
+}
+.content.down {
+    top: 29%;
+    bottom: auto;
+}
+
+#fundo {
+    border-radius: 2.1vh;
+    background: #EAF8FF;
+    width: 22em;
+    height: 13em;
+}
+p#user{
+    color:#070707;
+    width: 350px;
+    margin-left: 3.2em;
+    margin-top: -3em;
+    font-size: 1.2em;
+    
+}
+p#user2{
+    color: rgb(150, 150, 150);
+    width: 350px;
+    margin-left: 10em;
+    margin-top: -2.7em;
+    font-size: 1em;
+    
+}
+h3 {
+    color: #070707;
+    margin-left: 3.7em;
+    Width: 300px;
+    font-size: 1.07em;
+}
+a {
+    color:#0170ed;
+    text-decoration: none;
+}
+#reference {
+    margin-left: 3.5em;
+    margin-top: -10px;
+    Width: 250px;
+    border: 0.1px solid rgb(167, 167, 167);
+    border-radius: 2.1vh;
+}
+#foto2 {
+    background: url("https://lh3.googleusercontent.com/ujIAGUaHrPwOUcFs02B1HZzJ-9Bz2RDKqAkPGogIm4hNaw861Q9Q2HFk-xbhYVl2V0ts8OAJTsXObkMDeL2uuDSksPiVwgtQ3Z8oN7s8zThs3GpAXxUpcQ8_WTTXxQAeyZ2E9756Y4thyehNCxWGtmwfqRpt30Q_yN7nPPsbaNJTep_CL802s5Ub58Rw_y2_OZozAgRnPQPGy8f1eIiDIkzD088yi_HUi-T2E5IvHOJNr8FdPl-ZEHEyT1qUI5IGAZUbKtrsYv_hC7tYWt_dfrgaEdqcFX1oxUPXlUikrYlnXsflWl4oGHhSb8MR6u4DC0astkGH-qjSLCIBMRgUj2AxMabtZMYfCf1XHopEu1Je7Y_w0DmkUG0lv1_gIjjNjUHCmv6HeHWGYVOjlhcK9U4uNvKy3PFdsopmVE6QUi1XLd-4HQudL2xUjjJ6xYN-X_JORi6i_8SbHYfuCb1yvV_gtnkYcwBr13z-yMZWoxX5P9KChaR3hl4lBSp2XTe9DEgOFew0dmFt7Il5gRfmFxVDYSdXmKcXZ-VhZeu1PW4QBcQ88sn9C2eEr3vSZ0SrDLZVI95F_esnjS6IAKluB8xoFFjvixDiaKBDu4Rjsy9Zs4mO--sSvT7BGjQcNdBxABtd4cGtihz7-1EqDE3kwNelx3HEMlfJwYml-xf9xwTlSjxMulBoaM0FCdw-8YPkTtmnfBT0J8S-I1zBmbImD-Y=s500-no?authuser=0") no-repeat center center /cover;
+    width:80px;
+    height: 85px;
+    border-radius: 2vh;
+    border: 1px solid rgb(167, 167, 167);
+}
+div#profileset {
+    margin-top: -10px;
+}
+#txtn1 {
+    font-size: 0.9em;
+}
+#txtn2 {
+    font-size: 0.8em;
+}
+#linkgit {
+    font-size: 0.7em;
+}
